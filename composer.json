@@ -1,0 +1,20 @@
+{
+    "name": "butochnikov/laravel-grafika",
+    "require": {
+        "kosinix/grafika": "^2.0",
+	"illuminate/support": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Butochnikov",
+            "email": "butochnikov@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Butochnikov\\Grafika\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
